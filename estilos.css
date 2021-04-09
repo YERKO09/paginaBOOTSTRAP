@@ -1,0 +1,69 @@
+.nav-link:hover{
+    background-color: rgb(14, 196, 14);
+}
+
+.img1, .img2{
+    width: 100%;
+    height: 450px;
+}
+
+.perfil{
+    width: 100%;
+    height: 300px;
+}
+
+.imgredes{
+    width: 30px;
+    height: 30px;
+}
+
+.imgredes:hover{
+    width: 32px;
+    height: 32px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+.derechos_reservados{
+    text-decoration: none;
+    color: rgb(255, 238, 0);
+}
+
+.derechos_reservados:hover{
+    text-decoration: none;
+    color: rgb(38, 0, 255);
+}
+
+@media (max-width:576px){
+    .perfil{
+        height: 300px;
+        width: 300px;
+    }
+
+    .img1{
+        width: 250px;
+        height: 300px;
+    }
+
+    .img2{
+        height: 300px;
+    }
+
+    .referencia{
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+@media (min-width:576px) and (max-width:700px){
+    .perfil{
+        height: 250px;
+    }
+
+    .img2{
+        height: 300px;
+    }
+
+}
